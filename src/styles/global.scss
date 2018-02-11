@@ -1,0 +1,82 @@
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.banner {
+  background: black;
+  padding: 20px;
+  color: $secondary-color;
+}
+
+.app {
+  padding: 40px;
+}
+
+.branding {
+  font-size: $huge-text;
+}
+
+  .branding-subtext {
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+
+h1, h2, h3 {
+  font-weight: 900;
+  font-family: $font-family-serif;
+}
+
+.hero {
+  padding: 40px 0;
+  margin: 40px 0;
+
+  p.lead { font-family: $font-family-sans-serif; }
+
+  .second-lead {
+    color: $secondary-text;
+    font-size: $small-text;
+  }
+
+  .action {
+    margin: 40px 0;
+  }
+
+  .button {
+    background: $primary-color;
+    color: $text-color-dark;
+    font-size: $bigger-text;
+    padding: 18px 36px;
+    vertical-align: middle;
+    display: inline-block;
+
+    transition: all 0.1s ease-in-out;
+
+    &:hover, &:focus {
+      text-decoration: none;
+      background: $text-color;
+    }
+  }
+}
+
+.card {
+  margin: 10px;
+  background-color: $text-color;
+  color: $text-color-dark;
+  border-radius: $base-border-radius;
+  padding: 15px 20px;
+  box-shadow: 0 10px 10px 1px rgba(0, 0, 0, .2);
+  min-height: 150px;
+
+  .title {
+    color: $secondary-color;
+    font-weight: 600;
+    font-size: $bigger-text;
+    display: block;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}

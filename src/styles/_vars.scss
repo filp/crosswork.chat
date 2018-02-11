@@ -1,0 +1,32 @@
+// Variables here override the values in bootstrap/_variables
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+// Global colors
+$body-bg: #011627;
+$text-color: #FDFFFC;
+$text-color-dark: #111111;
+$secondary-text: #656565;
+$primary-color: #FDE74C;
+$secondary-color: #e94f8b;
+$link-color: $primary-color;
+$dark-bg: #1c1c1c;
+
+// Typography
+$huge-text: 62px; // Use very sparingly
+$bigger-text: 18px; // Use very sparingly
+$normal-text: 16px;
+$small-text: 14px;
+$tiny-text: 12px;
+$super-tiny-text: 10px; // Do not use this except for rare situations
+
+$font-family-sans-serif: "Work Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+$font-family-serif: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+$font-size-base: $normal-text;
+
+// Border radius
+$base-border-radius: 6px;
+
+// Grid
+$grid-gutter-width: 30px;
+$container-desktop: ((1040px + $grid-gutter-width));
+$container-large-desktop: $container-desktop;
