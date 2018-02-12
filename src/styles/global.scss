@@ -22,10 +22,14 @@ html, body {
     padding: 0;
   }
 
-h1, h2, h3 {
+h1 {
   font-weight: 900;
   font-family: $font-family-serif;
 }
+
+  h2, h3 {
+    font-weight: 600;
+  }
 
 .hero {
   padding: 40px 0;
