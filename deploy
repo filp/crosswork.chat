@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+rm -rf dist/
+git worktree add -f dist gh-pages
+yarn run build
+cd dist
+git add .
+git commit -m "Build output as of $(git log '--format=format:%H' master -1)"
+cd ..
+
+git push origin gh-pages
