@@ -9,7 +9,7 @@
 
       <p class="second-lead text-center">
         Participation is <strong>completely free</strong>, but for quality reasons,
-        all applications are reviewed manually.
+        all applications are manually reviewed.
       </p>
 
       <div class="action text-center">
