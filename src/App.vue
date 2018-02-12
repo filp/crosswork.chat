@@ -1,7 +1,8 @@
 <template>
   <div class="root">
     <div class="banner text-center">
-      We're still building this page. More details coming soon!
+      We're still building this page. More details coming soon! <strong>For now, get in touch
+      at <a class="social social-twitter" href="https://twitter.com/crossworkchat" target="_blank">@crossworkchat</a></strong>
     </div>
     <div class="app container">
       <div class="row">
